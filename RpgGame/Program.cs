@@ -9,13 +9,14 @@ Villain maleficus = new Villain("Maleficus", 50, "Devil");
 
 WriteLine($"Personagem: {arus}");
 WriteLine(arus.Attack());
-WriteLine(arus.Attack("espadas"));
+WriteLine(arus.Attack("espadas", 20));
+WriteLine(maleficus.VerificaDanos(arus, maleficus));
 
 WriteLine();
 WriteLine($"Personagem: {jenica}");
 WriteLine(jenica);
 WriteLine(jenica.Attack());
 WriteLine(jenica.Attack("fogo"));
+WriteLine(maleficus.VerificaDanos(jenica, maleficus));
 
 WriteLine();
-WriteLine($"Personagem: {maleficus}");

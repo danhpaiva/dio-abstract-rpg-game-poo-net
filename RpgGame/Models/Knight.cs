@@ -22,10 +22,10 @@ namespace RpgGame.Models
 
     public override string Attack()
     {
-      return this.Name + " lançou magia!";
+      return this.Name + " atacou com uma espada!";
     }
 
-    public string Attack(string bonus)
+    public string Attack(string bonus, int power)
     {
       return this.Name + $" atacou com três {bonus}!";
     }
