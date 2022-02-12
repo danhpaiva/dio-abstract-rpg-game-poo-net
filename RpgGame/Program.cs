@@ -3,7 +3,7 @@ using RpgGame.Models;
 
 WriteLine("\tFinal Fantasy\n");
 
-Warrior arus = new Warrior("Arus", 12, "Knight");
+Knight arus = new Knight("Arus", 12, "Knight");
 Wizzard jenica = new Wizzard("Jennica", 10, "White Wizzard");
 Villain maleficus = new Villain("Maleficus", 50, "Devil");
 

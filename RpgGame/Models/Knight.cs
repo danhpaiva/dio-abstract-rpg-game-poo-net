@@ -1,14 +1,14 @@
 namespace RpgGame.Models
 {
-  public class Warrior : Hero
+  public class Knight : Hero
   {
-    public Warrior()
+    public Knight()
     {
       Name = string.Empty;
       TypeHero = string.Empty;
     }
 
-    public Warrior(string Name, int Level, string TypeHero)
+    public Knight(string Name, int Level, string TypeHero)
     {
       this.Name = Name;
       this.Level = Level;
