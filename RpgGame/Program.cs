@@ -2,5 +2,9 @@
 using RpgGame.Models;
 
 Hero arus = new Hero("Arus", 12, "Knight");
+Villain maleficus = new Villain("Maleficus", 50, "Devil");
 
-WriteLine($"Hero: {arus.Name}\nLevel: {arus.Level}\nType: {arus.TypeHero}");
+WriteLine(arus);
+WriteLine(arus.Attack());
+
+WriteLine(maleficus);
