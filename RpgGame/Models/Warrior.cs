@@ -1,16 +1,14 @@
 namespace RpgGame.Models
 {
-  public abstract class Hero
+  public class Warrior : Hero
   {
-    public string Name { get; set; }
-    public int Level { get; set; }
-    public string TypeHero { get; set; }
-    public Hero()
+    public Warrior()
     {
       Name = string.Empty;
       TypeHero = string.Empty;
     }
-    public Hero(string Name, int Level, string TypeHero)
+
+    public Warrior(string Name, int Level, string TypeHero)
     {
       this.Name = Name;
       this.Level = Level;
@@ -22,9 +20,14 @@ namespace RpgGame.Models
       return this.Name + " " + this.Level + " " + this.TypeHero;
     }
 
-    public virtual string Attack()
+    public override string Attack()
     {
-      return this.Name + " atacou com sua espada!";
+      return this.Name + " lançou magia!";
+    }
+
+    public string Attack(string bonus)
+    {
+      return this.Name + $" atacou com três {bonus}!";
     }
   }
 }
