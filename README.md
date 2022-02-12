@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://github.com/danhpaiva/csharp-webapi-dio-profile">Aplicação que abstrai conceitos de POO para um jogo RPG</a>
+<a href="https://github.com/danhpaiva/csharp-webapi-dio-profile">Abstraindo um Jogo de RPG Usando Orientação a Objetos com C#</a>
 </h1>
 
 <p align="center">
